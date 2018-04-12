@@ -5,4 +5,20 @@
     border-right: 20px solid transparent;
     border-radius: 26px 26px 6 6 / 80px 80px 6 6;
     height: 0;
+    animation: skew 2.3s linear infinite;
+    margin: 100px;
+}
+
+@keyframes skew {
+        0% {transform: skew(0deg, 0deg);}
+        5% {transform: skew(5deg, 4.2deg);}
+        10% {transform: skew(-4deg, -3deg);}
+        15% {transform: skew(3deg, 2.2deg);}
+        20% {transform: skew(-2deg, -1.5deg);}
+        25% {transform: skew(0.9deg, 0.9deg);}
+        30% {transform: skew(-0.6deg, -0.6deg);}
+        35% {transform: skew(0.3deg, 0.3deg);}
+        40% {transform: skew(-0.2deg, -0.2deg);}
+        45% {transform: skew(0.1deg, 0.1deg);}  
+        50% {transform: skew(0deg, 0deg);}
 }
