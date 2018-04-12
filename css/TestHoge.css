@@ -6,6 +6,7 @@
     border-radius: 26px 26px 6 6 / 80px 80px 6 6;
     height: 0;
     animation: skew 2.3s linear infinite;
+    margin: 100px;
 }
 
 @keyframes skew {
